@@ -143,6 +143,16 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/PeopleOffice.jpg);
+  width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-size: cover;
+  background-origin: border-box;
 }
 .main-title {
   margin-left: auto;
