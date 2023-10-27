@@ -484,7 +484,7 @@ body {
 }
 
 .social-networks-link {
-  fill: none;
+  /* fill: none; */
   fill: #f4f4fd;
   display: flex;
   justify-content: center;
