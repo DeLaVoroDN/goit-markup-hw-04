@@ -130,7 +130,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-link.menu-after:active::after {
+.menu-link.menu-after::after {
   content: '';
   position: absolute;
   display: block;
