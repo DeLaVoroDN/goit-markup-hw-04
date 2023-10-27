@@ -53,6 +53,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-navigation {
@@ -88,6 +90,7 @@ body {
 
 .menu-link {
   font-family: Roboto;
+  text-decoration: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -97,7 +100,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-after:active::after {
+.menu-link.menu-after:active::after {
   position: absolute;
   display: block;
   width: 48px;
@@ -107,6 +110,7 @@ body {
   margin-right: auto;
   margin-top: 20px;
   content: '';
+  color: #404bbf;
   background-color: rgba(64, 75, 191, 1);
 }
 
