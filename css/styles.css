@@ -1,4 +1,4 @@
-/* RULES TAG*/
+/*! RULES TAG*/
 h1,
 h2,
 h3,
@@ -48,7 +48,7 @@ body {
   padding-right: 15px;
 }
 
-/* NAVIGATION */
+/*! NAVIGATION */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
@@ -114,7 +114,7 @@ body {
   bottom: -1px;
   margin-top: 20px;
   color: #404bbf;
-  background-color: rgba(64, 75, 191, 1);
+  background-color: rgb(64, 75, 191);
 }
 
 .link.menu-link.menu-after {
@@ -157,9 +157,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* MAIN CONTENT */
+/*! MAIN CONTENT */
 
-/*HERO SECTION */
+/*! HERO SECTION */
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -216,7 +216,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-/* SCTION ONE */
+/*! SCTION ONE */
 
 .visually-hidden {
   position: absolute;
@@ -281,7 +281,7 @@ body {
   color: #434455;
 }
 
-/* SECTION TWO */
+/*! SECTION TWO */
 .our-team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -365,7 +365,7 @@ body {
 .social-list-link:focus {
   background-color: #404bbf;
 }
-/* SECTION THREE */
+/*! SECTION THREE */
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -432,7 +432,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* FOOTER */
+/*! FOOTER */
 .footer-content {
   height: 312px;
   padding-top: 60px;
